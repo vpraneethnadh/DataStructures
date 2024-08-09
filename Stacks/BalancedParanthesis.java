@@ -13,7 +13,7 @@ public class BalancedParanthesis {
                 if (st.isEmpty()) {
                     return false;
                 }
-                char last = st.pop();
+                char last = st.pop(); 
                 if ((ch == ')' && last != '(') ||
                     (ch == ']' && last != '[') ||
                     (ch == '}' && last != '{')) {
